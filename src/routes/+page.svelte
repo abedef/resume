@@ -108,17 +108,16 @@
     ];
 
     let skills = [
-        "Server administration: comfortable using Linux environment as a daily driver",
-        "Web: Javascript, Typescript, HTML/CSS; building Svelte/SvelteKit applications",
-        "Functional programming: Racket, Elm",
-        "Scripting: Python, Ruby",
-        "Systems programming: Go, Java, Rust",
-        "Other programming: Swift; building interfaces with SwiftUI",
-        "Databases: PostgreSQL; setting up and optimizing MongoDB clusters",
+        "Web development: Javascript, Typescript, HTML/CSS; building Svelte applications",
+        "Scripting languages: Python, Ruby",
+        "Systems programming languages: Go, Java, Rust",
+        "Functional programming languages: Racket, Elm",
+        "Other programming languages: Swift; building interfaces with SwiftUI",
+        "Databases: PostgreSQL, PocketBase; setting up and optimizing MongoDB clusters",
         "Automation tools: Ansible, Jenkins, Gitlab CI/CD",
         "Infrastructure tools: Docker, Packer, Vagrant, Terraform, HAProxy, Nginx, Traefik",
         "Cloud providers and hypervisors: Openshift, Openstack, Google Cloud (GCP)",
-        "Operating systems: comfortable using Linux, Windows and macOS as a daily driver",
+        "Operating systems: comfortable using, maintaining and troubleshooting Unix-based environments (Linux, macOS)",
         "User interface design and development",
         "Creative coding, graphics programming and game engine architecture",
         "In a personal capacity, I enjoy coding and am usually hacking away at a few side projects at any given time, which I occasionally showcase on my Github/GitLab. I like to explore new frameworks and languages and am always excited to add a new language to my tool belt.",
@@ -289,6 +288,7 @@
 <style>
     header {
         display: flex;
+        align-items: end;
     }
 
     header > * {
