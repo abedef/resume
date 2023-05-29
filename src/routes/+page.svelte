@@ -35,17 +35,17 @@
                     responsibilities: [
                         "Online delivery pharmacy built with SvelteKit",
                         "Recently migrated from a Go API with a native iOS client",
-                        "With over two years of experience building a custom online pharmacy solution, I have encountered many obstacles that come with this undertaking. Due to the nature of the data we work with, we are forced to rely on PIPEDA-compliant tools, or tools with self-hosted distributions that I can deploy and support locally. Additionally, we implemented password-less login via a variety of methods including magic links, one-time-code verification, OAuth and WebAuthn. Pharmacists communicate with patients through our custom portal, interfacing with our internal chat platform, and Twilio’s SMS and Email services for notification purposes. ",
-                        "due to the nature of the data we were working with, we relied mainly on tools with self-hosted versions and I supported those services ",
-                        "passwordless login (magic link, code verification, oauth, webauthn) ",
+                        "With over two years of experience building a custom online pharmacy solution, I have encountered many obstacles that come with this undertaking. Due to the nature of the data we work with, we are forced to rely on PIPEDA-compliant tools, or tools with self-hosted distributions that I can deploy and support locally. Additionally, we implemented password-less login via a variety of methods including magic links, one-time-code verification, OAuth and WebAuthn. Pharmacists communicate with patients through our custom portal, interfacing with our internal chat platform, and Twilio’s SMS and Email services for notification purposes.",
+                        "due to the nature of the data we were working with, we relied mainly on tools with self-hosted versions and I supported those services",
+                        "passwordless login (magic link, code verification, oauth, webauthn)",
                         "notifications (Twilio and SendGrid)",
                         "SMS messaging integration with Mattermost",
-                        "Patients can view and manage their prescriptions or coordinate deliveries ",
+                        "Patients can view and manage their prescriptions or coordinate deliveries",
                         "SvelteKit, Go, Swift/SwiftUI, PostgreSQL, GCP",
-                        "At this stage our application is supported by a Go API with a native iOS client, and web app written in Svelte. Patients can view and manage their prescriptions, and coordinate deliveries. Features passwordless login via SMS or email, implemented from scratch with Twilio's APIs. ",
+                        "At this stage our application is supported by a Go API with a native iOS client, and web app written in Svelte. Patients can view and manage their prescriptions, and coordinate deliveries. Features passwordless login via SMS or email, implemented from scratch with Twilio's APIs.",
                         "co-founded an online pharmacy and took ownership of the technical side of the business, interfacing with designers and other engineers to accomplish our goals in a fast-paced startup environment with a focus on keeping GCP operating costs to a minimum ",
-                        "Technical requirements to build up a stack to fulfil our patients' needs ",
-                        "Created prototype API in Java Spring and eventually transitioned to Go to make use of fast build and deploy times, and supports a tier on GCP that makes things cheap for us ",
+                        "Technical requirements to build up a stack to fulfil our patients' needs",
+                        "Created prototype API in Java Spring and eventually transitioned to Go to make use of fast build and deploy times, and supports a tier on GCP that makes things cheap for us",
                         "Built front end app in iOS SwiftUI",
                         "Built back end management app for pharmacists in Svelte",
                         "Migrated to full SvelteKit backend, lighter and cheaper",
@@ -63,18 +63,18 @@
                     title: "Software Developer",
                     subtitle: "Infrastructure & Pipeline Automation",
                     responsibilities: [
-                        "supported and developed systems supporting high TPS and high redundancy for charging systems at a nationwide telecommunication company ",
-                        "developed and supported high TPS systems with highly redundant deployments at a nationwide telecom company ",
-                        "tracked down opportunities to improve and speed up our development and deployment pipelines, with an emphasis on enhancing developer and QA experience ",
-                        "advocated for knowledge sharing and reduced redundancy by means of organization-wide “open-source” development practices ",
-                        "troubleshooted development and production environment issues, providing technical support where required, and documenting fixes and best practices in our team’s shared knowledge base ",
-                        "troubleshooted development and production environment issues, documenting fixes and best practices in our shared knowledge base ",
-                        "introduced, trialed and rolled out several eventual key infrastructure and development tools (i.e. Terraform) ",
-                        "Know design patterns, implemented a bunch of features with minimal guidance ",
-                        "Wrote a lot of reconciliation scripts that are probably still there today ",
-                        "Supported application deployments to Openshift and their integration ",
-                        "Developed pipelines to accelerate deployments and minimize human error ",
-                        "Presented knowledge-sharing talks and demos on automation and Linux tools ",
+                        "supported and developed systems supporting high TPS and high redundancy for charging systems at a nationwide telecommunication company",
+                        "developed and supported high TPS systems with highly redundant deployments at a nationwide telecom company",
+                        "tracked down opportunities to improve and speed up our development and deployment pipelines, with an emphasis on enhancing developer and QA experience",
+                        "advocated for knowledge sharing and reduced redundancy by means of organization-wide “open-source” development practices",
+                        "troubleshooted development and production environment issues, providing technical support where required, and documenting fixes and best practices in our team’s shared knowledge base",
+                        "troubleshooted development and production environment issues, documenting fixes and best practices in our shared knowledge base",
+                        "introduced, trialed and rolled out several eventual key infrastructure and development tools (i.e. Terraform)",
+                        "Know design patterns, implemented a bunch of features with minimal guidance",
+                        "Wrote a lot of reconciliation scripts that are probably still there today",
+                        "Supported application deployments to Openshift and their integration",
+                        "Developed pipelines to accelerate deployments and minimize human error",
+                        "Presented knowledge-sharing talks and demos on automation and Linux tools",
                     ],
                 },
                 {
@@ -82,15 +82,15 @@
                     subtitle: "DevOps and Java Spring Development",
                     responsibilities: [
                         "Built and configured first development Docker swarm",
-                        " Built multiple QA and production environments (Ansible, Terraform) ",
-                        " I introduced (or was instrumental in the adoption of) a number of tools to the team's stack, from which I can proudly say several still remain foundational to the team's infrastructure (i.e. Terraform, Portainer, GitLab CI). ",
-                        " Docker and Kubernetes (OpenShift) Ansible Terraform Jenkins, later GitLab CI Vagrant OpenStack Zabbix Graylog ",
-                        " Took charge in setting up automated development environment deployments ",
-                        " Wrote and took ownership of deployment scripts for setting up development and production environments ",
+                        "Built multiple QA and production environments (Ansible, Terraform)",
+                        "I introduced (or was instrumental in the adoption of) a number of tools to the team's stack, from which I can proudly say several still remain foundational to the team's infrastructure (i.e. Terraform, Portainer, GitLab CI).",
+                        "Docker and Kubernetes (OpenShift) Ansible Terraform Jenkins, later GitLab CI Vagrant OpenStack Zabbix Graylog",
+                        "Took charge in setting up automated development environment deployments ",
+                        "Wrote and took ownership of deployment scripts for setting up development and production environments",
                         "Maintained scripts for production environment management",
-                        " Worked with DBAs to automate geo-redundant MongoDB deployments ",
-                        " As well during my time at Bell I wrote a script which was a key project deliverable. It provided a Terraform template and Ansible playbook to deploy a geo-redundant multi-node cluster that would support enormous streams of data. Later, I collaborated with our RDBMS specialists and Mongo's on-site support team to optimize the deployments. This consisted of dozens of test deployments, experimenting with a number of our server's OS configurations (THP, security policies, hypervisor considerations). ",
-                        " Developed features within an Agile-managed microservice architecture ",
+                        "Worked with DBAs to automate geo-redundant MongoDB deployments",
+                        "As well during my time at Bell I wrote a script which was a key project deliverable. It provided a Terraform template and Ansible playbook to deploy a geo-redundant multi-node cluster that would support enormous streams of data. Later, I collaborated with our RDBMS specialists and Mongo's on-site support team to optimize the deployments. This consisted of dozens of test deployments, experimenting with a number of our server's OS configurations (THP, security policies, hypervisor considerations).",
+                        "Developed features within an Agile-managed microservice architecture ",
                     ],
                 },
             ],
@@ -108,17 +108,17 @@
     ];
 
     let skills = [
-        " Server administration: comfortable using Linux environment as a daily driver ",
-        " Home server administration (self-hosted services, build servers, chat bots) ",
+        "Server administration: comfortable using Linux environment as a daily driver",
+        "Home server administration (self-hosted services, build servers, chat bots)",
         "boop SvelteKit, Go, Swift/SwiftUI, PostgreSQL, GCP",
-        " Javascript, Typescript, Go, Swift, Python, HTML/CSS, Java, Ruby, Rust ",
+        "Javascript, Typescript, Go, Swift, Python, HTML/CSS, Java, Ruby, Rust",
         "Functional programming languages such as Racket and Elm",
-        " Tools: Docker, Ansible, Packer, Vagrant, Terraform, Linux, Openshift, Openstack, Google Cloud, HAProxy, Nginx, Traefik, Jenkins, Gitlab CI/CD ",
+        "Tools: Docker, Ansible, Packer, Vagrant, Terraform, Linux, Openshift, Openstack, Google Cloud, HAProxy, Nginx, Traefik, Jenkins, Gitlab CI/CD",
         "User interface design and development",
-        " Creative coding, graphics programming and game engine architecture ",
-        " In a personal capacity, I enjoy coding and am usually hacking away at a few side projects at any given time, which I occasionally showcase on my Github/GitLab. I like to explore new frameworks and languages and am always excited to add a new language to my tool belt. ",
-        " In terms of hobbies, since I was first taught to set up and use SSH, I have been maintaining a number of home servers for the purpose of supporting self-hosted services. Although my first few servers' OS is Canonical's Ubuntu, I prefer Arch Linux for personal use. Some of my favourite self-hosted tools are MinIO and Proxmox, which I make generous use of in my personal projects. ",
-        " Know my way around the command line and have set up enough Linux machines and Hackintoshes to feel comfortable ",
+        "Creative coding, graphics programming and game engine architecture",
+        "In a personal capacity, I enjoy coding and am usually hacking away at a few side projects at any given time, which I occasionally showcase on my Github/GitLab. I like to explore new frameworks and languages and am always excited to add a new language to my tool belt.",
+        "In terms of hobbies, since I was first taught to set up and use SSH, I have been maintaining a number of home servers for the purpose of supporting self-hosted services. Although my first few servers' OS is Canonical's Ubuntu, I prefer Arch Linux for personal use. Some of my favourite self-hosted tools are MinIO and Proxmox, which I make generous use of in my personal projects.",
+        "Know my way around the command line and have set up enough Linux machines and Hackintoshes to feel comfortable",
         "Languages: English, Arabic, Russian",
     ];
 </script>
@@ -173,7 +173,7 @@
         {#each experience as gig}
             <div class="company">
                 <h3>{gig.company}</h3>
-                <h3>{gig.years}</h3>
+                <h3 class="years">{gig.years}</h3>
             </div>
             {#if "description" in gig}
                 <p class="company-description">{gig.description}</p>
@@ -311,6 +311,11 @@
         align-items: center;
     }
 
+    h3.years,
+    div.role > em {
+        text-align: end;
+    }
+
     footer {
         text-align: center;
     }
@@ -318,6 +323,7 @@
     footer > ul {
         list-style: none;
         text-align: start;
+        padding-left: 0;
     }
 
     header a {
