@@ -296,7 +296,7 @@
     }
 
     footer > p {
-        opacity: 0.5;
+        color: #ddd;
     }
 
     footer > p > a {
@@ -312,7 +312,7 @@
     section > h3 {
         min-width: 7rem;
         max-width: 7rem;
-        opacity: 0.25;
+        color: #ddd;
     }
 
     section > div {
