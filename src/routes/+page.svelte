@@ -129,9 +129,6 @@
     ];
 </script>
 
-<!-- TODO: Make this page viewable in mobile -->
-<!-- TODO: Hide contents when page is too narrow -->
-
 <svelte:head>
     <title>Resume | Abed Fayyad</title>
 </svelte:head>
@@ -178,7 +175,7 @@
     <div>
         {#each experience as gig}
             <div class="company">
-                <h3>{gig.company}</h3>
+                <h3 class="company-name">{gig.company}</h3>
                 <h3 class="years">{gig.years}</h3>
             </div>
             {#if "description" in gig}
@@ -283,7 +280,7 @@
 
 <footer>
     <p>
-        built <span>✨</span> from scratch <span>✨</span> with
+        built <a href="https://github.com/abedef/resume"><span>✨</span> from scratch <span>✨</span></a> with
         <a href="https://svelte.dev">Svelte</a>
         and hosted with <a href="https://pages.github.com">GitHub Pages</a>
     </p>
@@ -325,6 +322,10 @@
     div.company {
         display: flex;
         justify-content: space-between;
+    }
+
+    h3.years {
+        flex: 1;
     }
 
     div.role {
