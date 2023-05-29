@@ -81,18 +81,13 @@
             regulation side of things, I handled our technical requirements and
             built up a stack to fulfil our patients' needs. In September of
             2021, we were well-off enough that I could afford to go full-time.
-        </p>
-        <p>
             This was a significant undertaking and one of my most difficult
             experiences, but I am glad I did it nonetheless. The project forced
-            me to pick up many new skills and finally face app- and web-
-            development, which I had been neglecting so far. Throughout my time
-            working on the project, I had the opportunity to move between
-            technical stacks until I found the right fit.
+            me to pick up many new skills including web and app development.
         </p>
 
         <div class="role">
-            <h4>Founding Developer</h4>
+            <h4>Founding Developer, CTO</h4>
             <em>Full Stack Development</em>
         </div>
 
@@ -166,9 +161,9 @@
             Bell that was due to deliver on an ambitious project with a tight,
             government-mandated deadline. The CRTC updated their wireless code
             of conduct – which all telecommunications companies must follow –
-            and Bell was the first to implement their requirements without
-            delays thanks to the work done by my team. Later, I transferred to a
-            team responsible for the rollout of 5G onto Bell's network, where I
+            and Bell was the first to implement their requirements without delay
+            thanks to the work done by my team. Later, I transferred to a team
+            responsible for the rollout of 5G onto Bell's network, where I
             supported our Kubernetes environments. <!-- Something about replacing legacy systems with microservice architecture -->
             <!-- collaborated with people all the way from Dublin to Delhi -->
         </p>
@@ -187,10 +182,6 @@
             <li>
                 developed and supported high TPS systems with highly redundant
                 deployments at a nationwide telecom company
-            </li>
-            <li>
-                tracked down opportunities to improve and speed up development
-                and deployment pipelines
             </li>
             <li>
                 tracked down opportunities to improve and speed up our
@@ -348,7 +339,7 @@
                 machines and Hackintoshes to feel comfortable
             </li>
             <li>Languages: English, Arabic, Russian</li>
-            <li><a href="/portfolio">Visual Portfolio</a></li>
+            <!-- <li><a href="/portfolio">Visual Portfolio</a></li> -->
         </ul>
     </div>
 </section>
@@ -377,30 +368,48 @@
 <section>
     <h3>Open<br />Source<br />Contribution</h3>
     <div>
-        <p>
-            In terms of larger code bases, my team at Bell made heavy use of
-            tools like Ansible, which happens to be written in Python. During
-            one of our runs, the tool misbehaved in a consistent way, so I filed
-            a <a href="https://github.com/ansible/ansible/issues/32906"
-                >bug report</a
-            >, and dove into the code to look for a
-            <a href="https://github.com/ansible/ansible/pull/32909"
-                >possible fix</a
-            >. Though my particular fix was not merged, my report was
-            acknowledged and a similar fix was employed.
+        <div class="company">
+            <h3>Ansible</h3>
+        </div>
+
+        <p class="company-description">
+            During my time at Bell, our team made heavy use of automation tools
+            like Red Hat's Ansible. During one of our runs, the tool misbehaved
+            in a consistent way, so I opened an issue <a
+                href="https://github.com/ansible/ansible/issues/32906">[1]</a
+            >. In the meantime, I was able to pinpoint the erroneous code and
+            submit a fix that handled my use-case. Though my particular fix
+            <a href="https://github.com/ansible/ansible/pull/32909">[2]</a> was not
+            merged, my report was acknowledged and a similar fix was employed.
+        </p>
+
+        <div class="company">
+            <h3>Lockwise</h3>
+        </div>
+
+        <p class="company-description">
+            I tracked down a user interface bug in Mozilla's iOS password
+            manager app, Lockwise, and submitted a fix <a
+                href="https://github.com/mozilla-lockwise/lockwise-ios/pull/1102"
+                >[3]</a> which <em>was</em> merged!
         </p>
     </div>
 </section>
 
 <footer>
-    This resume is made ✨ from scratch ✨ using <a href="https://svelte.dev"
+    <ul>
+        <li>[1] https://github.com/ansible/ansible/issues/32906</li>
+        <li>[2] https://github.com/ansible/ansible/pull/32909</li>
+        <li>[3] https://github.com/mozilla-lockwise/lockwise-ios/pull/1102</li>
+    </ul>
+    This resume is made ✨ from scratch ✨ using<a href="https://svelte.dev"
         >Svelte</a
     >!
 </footer>
 
 <style>
     * {
-        font-family: Helvetica, sans-serif;
+        font-family: "SF Pro", Helvetica, sans-serif;
     }
 
     header {
@@ -477,5 +486,9 @@
 
     #coursework {
         column-count: 2;
+    }
+
+    header, footer, p, ul {
+        font-size: small;
     }
 </style>
