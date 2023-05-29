@@ -279,7 +279,10 @@
 
 <footer>
     <p>
-        built <a href="https://github.com/abedef/resume"><span>✨</span> from scratch <span>✨</span></a> with
+        built <a href="https://github.com/abedef/resume"
+            ><span>✨</span> from scratch <span>✨</span></a
+        >
+        with
         <a href="https://svelte.dev">Svelte</a>
         and hosted with <a href="https://pages.github.com">GitHub Pages</a>
     </p>
@@ -302,6 +305,13 @@
     footer > p > a {
         text-decoration: none;
         color: currentColor;
+    }
+
+    header,
+    section,
+    footer {
+        max-width: 50rem;
+        margin: 0 auto;
     }
 
     section {
