@@ -21,6 +21,106 @@
         { code: "CSC469", name: "Advanced Operating Systems (Audited)" },
         { code: "CSC488", name: "Compilers and Interpreters" },
     ];
+
+    let experience = [
+        {
+            company: "Postscriptions Inc.",
+            years: "2021 – Present",
+            description:
+                "Since my last semester of university, I spent my evenings and weekends designing and prototyping an online pharmacy solution with a friend from high school. While he managed the pharmacy and regulation side of things, I handled our technical requirements and built up a stack to fulfil our patients' needs. In September of 2021, we were well-off enough that I could afford to go full-time. This was a significant undertaking and one of my most difficult experiences, but I am glad I did it nonetheless. The project forced me to pick up many new skills including web and app development.",
+            roles: [
+                {
+                    title: "Founding Engineer, Chief Technical Officer",
+                    subtitle: "Full Stack Development",
+                    responsibilities: [
+                        "Online delivery pharmacy built with SvelteKit",
+                        "Recently migrated from a Go API with a native iOS client",
+                        "With over two years of experience building a custom online pharmacy solution, I have encountered many obstacles that come with this undertaking. Due to the nature of the data we work with, we are forced to rely on PIPEDA-compliant tools, or tools with self-hosted distributions that I can deploy and support locally. Additionally, we implemented password-less login via a variety of methods including magic links, one-time-code verification, OAuth and WebAuthn. Pharmacists communicate with patients through our custom portal, interfacing with our internal chat platform, and Twilio’s SMS and Email services for notification purposes. ",
+                        "due to the nature of the data we were working with, we relied mainly on tools with self-hosted versions and I supported those services ",
+                        "passwordless login (magic link, code verification, oauth, webauthn) ",
+                        "notifications (Twilio and SendGrid)",
+                        "SMS messaging integration with Mattermost",
+                        "Patients can view and manage their prescriptions or coordinate deliveries ",
+                        "SvelteKit, Go, Swift/SwiftUI, PostgreSQL, GCP",
+                        "At this stage our application is supported by a Go API with a native iOS client, and web app written in Svelte. Patients can view and manage their prescriptions, and coordinate deliveries. Features passwordless login via SMS or email, implemented from scratch with Twilio's APIs. ",
+                        "co-founded an online pharmacy and took ownership of the technical side of the business, interfacing with designers and other engineers to accomplish our goals in a fast-paced startup environment with a focus on keeping GCP operating costs to a minimum ",
+                        "Technical requirements to build up a stack to fulfil our patients' needs ",
+                        "Created prototype API in Java Spring and eventually transitioned to Go to make use of fast build and deploy times, and supports a tier on GCP that makes things cheap for us ",
+                        "Built front end app in iOS SwiftUI",
+                        "Built back end management app for pharmacists in Svelte",
+                        "Migrated to full SvelteKit backend, lighter and cheaper",
+                    ],
+                },
+            ],
+        },
+        {
+            company: "Bell Canada",
+            years: "2017 – 2021",
+            description:
+                "Straight out of school I joined a small and fairly new Agile team at Bell that was due to deliver on an ambitious project with a tight, government-mandated deadline. The CRTC updated their wireless code of conduct – which all telecommunications companies must follow – and Bell was the first to implement their requirements without delay thanks to the work done by my team. Later, I transferred to a team responsible for the rollout of 5G onto Bell's network, where I supported our Kubernetes environments. <!-- Something about replacing legacy systems with microservice architecture --> <!-- collaborated with people all the way from Dublin to Delhi -->",
+            roles: [
+                {
+                    title: "Software Developer",
+                    subtitle: "Infrastructure & Pipeline Automation",
+                    responsibilities: [
+                        "supported and developed systems supporting high TPS and high redundancy for charging systems at a nationwide telecommunication company ",
+                        "developed and supported high TPS systems with highly redundant deployments at a nationwide telecom company ",
+                        "tracked down opportunities to improve and speed up our development and deployment pipelines, with an emphasis on enhancing developer and QA experience ",
+                        "advocated for knowledge sharing and reduced redundancy by means of organization-wide “open-source” development practices ",
+                        "troubleshooted development and production environment issues, providing technical support where required, and documenting fixes and best practices in our team’s shared knowledge base ",
+                        "troubleshooted development and production environment issues, documenting fixes and best practices in our shared knowledge base ",
+                        "introduced, trialed and rolled out several eventual key infrastructure and development tools (i.e. Terraform) ",
+                        "Know design patterns, implemented a bunch of features with minimal guidance ",
+                        "Wrote a lot of reconciliation scripts that are probably still there today ",
+                        "Supported application deployments to Openshift and their integration ",
+                        "Developed pipelines to accelerate deployments and minimize human error ",
+                        "Presented knowledge-sharing talks and demos on automation and Linux tools ",
+                    ],
+                },
+                {
+                    title: "DevOps Engineer",
+                    subtitle: "DevOps and Java Spring Development",
+                    responsibilities: [
+                        "Built and configured first development Docker swarm",
+                        " Built multiple QA and production environments (Ansible, Terraform) ",
+                        " I introduced (or was instrumental in the adoption of) a number of tools to the team's stack, from which I can proudly say several still remain foundational to the team's infrastructure (i.e. Terraform, Portainer, GitLab CI). ",
+                        " Docker and Kubernetes (OpenShift) Ansible Terraform Jenkins, later GitLab CI Vagrant OpenStack Zabbix Graylog ",
+                        " Took charge in setting up automated development environment deployments ",
+                        " Wrote and took ownership of deployment scripts for setting up development and production environments ",
+                        "Maintained scripts for production environment management",
+                        " Worked with DBAs to automate geo-redundant MongoDB deployments ",
+                        " As well during my time at Bell I wrote a script which was a key project deliverable. It provided a Terraform template and Ansible playbook to deploy a geo-redundant multi-node cluster that would support enormous streams of data. Later, I collaborated with our RDBMS specialists and Mongo's on-site support team to optimize the deployments. This consisted of dozens of test deployments, experimenting with a number of our server's OS configurations (THP, security policies, hypervisor considerations). ",
+                        " Developed features within an Agile-managed microservice architecture ",
+                    ],
+                },
+            ],
+        },
+        {
+            company: "University of Toronto",
+            years: "2016 – 2017",
+            roles: [
+                {
+                    title: "Teaching Assistant",
+                    subtitle: "Introduction to Computer Science",
+                },
+            ],
+        },
+    ];
+
+    let skills = [
+        " Server administration: comfortable using Linux environment as a daily driver ",
+        " Home server administration (self-hosted services, build servers, chat bots) ",
+        "boop SvelteKit, Go, Swift/SwiftUI, PostgreSQL, GCP",
+        " Javascript, Typescript, Go, Swift, Python, HTML/CSS, Java, Ruby, Rust ",
+        "Functional programming languages such as Racket and Elm",
+        " Tools: Docker, Ansible, Packer, Vagrant, Terraform, Linux, Openshift, Openstack, Google Cloud, HAProxy, Nginx, Traefik, Jenkins, Gitlab CI/CD ",
+        "User interface design and development",
+        " Creative coding, graphics programming and game engine architecture ",
+        " In a personal capacity, I enjoy coding and am usually hacking away at a few side projects at any given time, which I occasionally showcase on my Github/GitLab. I like to explore new frameworks and languages and am always excited to add a new language to my tool belt. ",
+        " In terms of hobbies, since I was first taught to set up and use SSH, I have been maintaining a number of home servers for the purpose of supporting self-hosted services. Although my first few servers' OS is Canonical's Ubuntu, I prefer Arch Linux for personal use. Some of my favourite self-hosted tools are MinIO and Proxmox, which I make generous use of in my personal projects. ",
+        " Know my way around the command line and have set up enough Linux machines and Hackintoshes to feel comfortable ",
+        "Languages: English, Arabic, Russian",
+    ];
 </script>
 
 <!-- TODO: Make this page viewable in mobile -->
@@ -70,223 +170,30 @@
 <section>
     <h3>Experience</h3>
     <div>
-        <div class="company">
-            <h3>Postscriptions Inc.</h3>
-            <h3>2021 – Present</h3>
-        </div>
-        <p class="company-description">
-            Since my last semester of university, I spent my evenings and
-            weekends designing and prototyping an online pharmacy solution with
-            a friend from high school. While he managed the pharmacy and
-            regulation side of things, I handled our technical requirements and
-            built up a stack to fulfil our patients' needs. In September of
-            2021, we were well-off enough that I could afford to go full-time.
-            This was a significant undertaking and one of my most difficult
-            experiences, but I am glad I did it nonetheless. The project forced
-            me to pick up many new skills including web and app development.
-        </p>
+        {#each experience as gig}
+            <div class="company">
+                <h3>{gig.company}</h3>
+                <h3>{gig.years}</h3>
+            </div>
+            {#if "description" in gig}
+                <p class="company-description">{gig.description}</p>
+            {/if}
 
-        <div class="role">
-            <h4>Founding Developer, CTO</h4>
-            <em>Full Stack Development</em>
-        </div>
+            {#each gig.roles as role}
+                <div class="role">
+                    <h4>{role.title}</h4>
+                    <em>{role.subtitle}</em>
+                </div>
 
-        <ul class="responsibilities">
-            <li>Online delivery pharmacy built with SvelteKit</li>
-            <li>Recently migrated from a Go API with a native iOS client</li>
-            <li>
-                With over two years of experience building a custom online
-                pharmacy solution, I have encountered many obstacles that come
-                with this undertaking. Due to the nature of the data we work
-                with, we are forced to rely on PIPEDA-compliant tools, or tools
-                with self-hosted distributions that I can deploy and support
-                locally. Additionally, we implemented password-less login via a
-                variety of methods including magic links, one-time-code
-                verification, OAuth and WebAuthn. Pharmacists communicate with
-                patients through our custom portal, interfacing with our
-                internal chat platform, and Twilio’s SMS and Email services for
-                notification purposes.
-            </li>
-            <li>
-                due to the nature of the data we were working with, we relied
-                mainly on tools with self-hosted versions and I supported those
-                services
-            </li>
-
-            <li>
-                passwordless login (magic link, code verification, oauth,
-                webauthn)
-            </li>
-            <li>notifications (Twilio and SendGrid)</li>
-            <li>SMS messaging integration with Mattermost</li>
-            <li>
-                Patients can view and manage their prescriptions or coordinate
-                deliveries
-            </li>
-            <li>SvelteKit, Go, Swift/SwiftUI, PostgreSQL, GCP</li>
-            <li>
-                At this stage our application is supported by a Go API with a
-                native iOS client, and web app written in Svelte. Patients can
-                view and manage their prescriptions, and coordinate deliveries.
-                Features passwordless login via SMS or email, implemented from
-                scratch with Twilio's APIs.
-            </li>
-            <li>
-                co-founded an online pharmacy and took ownership of the
-                technical side of the business, interfacing with designers and
-                other engineers to accomplish our goals in a fast-paced startup
-                environment with a focus on keeping GCP operating costs to a
-                minimum
-            </li>
-            <li>
-                Technical requirements to build up a stack to fulfil our
-                patients' needs
-            </li>
-            <li>
-                Created prototype API in Java Spring and eventually transitioned
-                to Go to make use of fast build and deploy times, and supports a
-                tier on GCP that makes things cheap for us
-            </li>
-            <li>Built front end app in iOS SwiftUI</li>
-            <li>Built back end management app for pharmacists in Svelte</li>
-            <li>Migrated to full SvelteKit backend, lighter and cheaper</li>
-        </ul>
-
-        <div class="company">
-            <h3>Bell Canada</h3>
-            <h3>2017 – 2021</h3>
-        </div>
-        <p class="company-description">
-            Straight out of school I joined a small and fairly new Agile team at
-            Bell that was due to deliver on an ambitious project with a tight,
-            government-mandated deadline. The CRTC updated their wireless code
-            of conduct – which all telecommunications companies must follow –
-            and Bell was the first to implement their requirements without delay
-            thanks to the work done by my team. Later, I transferred to a team
-            responsible for the rollout of 5G onto Bell's network, where I
-            supported our Kubernetes environments. <!-- Something about replacing legacy systems with microservice architecture -->
-            <!-- collaborated with people all the way from Dublin to Delhi -->
-        </p>
-
-        <div class="role">
-            <h4>Software Developer</h4>
-            <em>Infrastructure & Pipeline Automation</em>
-        </div>
-
-        <ul class="responsibilities">
-            <li>
-                supported and developed systems supporting high TPS and high
-                redundancy for charging systems at a nationwide
-                telecommunication company
-            </li>
-            <li>
-                developed and supported high TPS systems with highly redundant
-                deployments at a nationwide telecom company
-            </li>
-            <li>
-                tracked down opportunities to improve and speed up our
-                development and deployment pipelines, with an emphasis on
-                enhancing developer and QA experience
-            </li>
-            <li>
-                advocated for knowledge sharing and reduced redundancy by means
-                of organization-wide “open-source” development practices
-            </li>
-            <li>
-                troubleshooted development and production environment issues,
-                providing technical support where required, and documenting
-                fixes and best practices in our team’s shared knowledge base
-            </li>
-            <li>
-                troubleshooted development and production environment issues,
-                documenting fixes and best practices in our shared knowledge
-                base
-            </li>
-            <li>
-                introduced, trialed and rolled out several eventual key
-                infrastructure and development tools (i.e. Terraform)
-            </li>
-
-            <li>
-                Know design patterns, implemented a bunch of features with
-                minimal guidance
-            </li>
-            <li>
-                Wrote a lot of reconciliation scripts that are probably still
-                there today
-            </li>
-            <li>
-                Supported application deployments to Openshift and their
-                integration
-            </li>
-            <li>
-                Developed pipelines to accelerate deployments and minimize human
-                error
-            </li>
-            <li>
-                Presented knowledge-sharing talks and demos on automation and
-                Linux tools
-            </li>
-        </ul>
-
-        <div class="role">
-            <h4>DevOps Engineer</h4>
-            <em>DevOps and Java Spring Development</em>
-        </div>
-
-        <ul class="responsibilities">
-            <li>Built and configured first development Docker swarm</li>
-            <li>
-                Built multiple QA and production environments (Ansible,
-                Terraform)
-            </li>
-            <li>
-                I introduced (or was instrumental in the adoption of) a number
-                of tools to the team's stack, from which I can proudly say
-                several still remain foundational to the team's infrastructure
-                (i.e. Terraform, Portainer, GitLab CI).
-            </li>
-            <li>
-                Docker and Kubernetes (OpenShift) Ansible Terraform Jenkins,
-                later GitLab CI Vagrant OpenStack Zabbix Graylog
-            </li>
-            <li>
-                Took charge in setting up automated development environment
-                deployments
-            </li>
-            <li>
-                Wrote and took ownership of deployment scripts for setting up
-                development and production environments
-            </li>
-            <li>Maintained scripts for production environment management</li>
-            <li>
-                Worked with DBAs to automate geo-redundant MongoDB deployments
-            </li>
-            <li>
-                As well during my time at Bell I wrote a script which was a key
-                project deliverable. It provided a Terraform template and
-                Ansible playbook to deploy a geo-redundant multi-node cluster
-                that would support enormous streams of data. Later, I
-                collaborated with our RDBMS specialists and Mongo's on-site
-                support team to optimize the deployments. This consisted of
-                dozens of test deployments, experimenting with a number of our
-                server's OS configurations (THP, security policies, hypervisor
-                considerations).
-            </li>
-            <li>
-                Developed features within an Agile-managed microservice
-                architecture
-            </li>
-        </ul>
-
-        <div class="company">
-            <h3>University of Toronto</h3>
-            <h3>2016 – 2017</h3>
-        </div>
-        <div class="role">
-            <h4>Teaching Assistant</h4>
-            <em>Introduction to Computer Science</em>
-        </div>
+                {#if "responsibilities" in role}
+                    <ul class="responsibilities">
+                        {#each role.responsibilities as responsibility}
+                            <li>{responsibility}</li>
+                        {/each}
+                    </ul>
+                {/if}
+            {/each}
+        {/each}
     </div>
 </section>
 
@@ -294,52 +201,9 @@
     <h3>Skills</h3>
     <div>
         <ul>
-            <li>
-                Server administration: comfortable using Linux environment as a
-                daily driver
-            </li>
-            <li>
-                Home server administration (self-hosted services, build servers,
-                chat bots)
-            </li>
-            <li>boop SvelteKit, Go, Swift/SwiftUI, PostgreSQL, GCP</li>
-            <li>
-                Javascript, Typescript, Go, Swift, Python, HTML/CSS, Java, Ruby,
-                Rust
-            </li>
-            <li>Functional programming languages such as Racket and Elm</li>
-            <li>
-                Tools: Docker, Ansible, Packer, Vagrant, Terraform, Linux,
-                Openshift, Openstack, Google Cloud, HAProxy, Nginx, Traefik,
-                Jenkins, Gitlab CI/CD
-            </li>
-            <li>User interface design and development</li>
-            <li>
-                Creative coding, graphics programming and game engine
-                architecture
-            </li>
-            <li>
-                In a personal capacity, I enjoy coding and am usually hacking
-                away at a few side projects at any given time, which I
-                occasionally showcase on my Github/GitLab. I like to explore new
-                frameworks and languages and am always excited to add a new
-                language to my tool belt.
-            </li>
-            <li>
-                In terms of hobbies, since I was first taught to set up and use
-                SSH, I have been maintaining a number of home servers for the
-                purpose of supporting self-hosted services. Although my first
-                few servers' OS is Canonical's Ubuntu, I prefer Arch Linux for
-                personal use. Some of my favourite self-hosted tools are MinIO
-                and Proxmox, which I make generous use of in my personal
-                projects.
-            </li>
-            <li>
-                Know my way around the command line and have set up enough Linux
-                machines and Hackintoshes to feel comfortable
-            </li>
-            <li>Languages: English, Arabic, Russian</li>
-            <!-- <li><a href="/portfolio">Visual Portfolio</a></li> -->
+            {#each skills as skill}
+                <li>{skill}</li>
+            {/each}
         </ul>
     </div>
 </section>
@@ -391,27 +255,24 @@
             I tracked down a user interface bug in Mozilla's iOS password
             manager app, Lockwise, and submitted a fix <a
                 href="https://github.com/mozilla-lockwise/lockwise-ios/pull/1102"
-                >[3]</a> which <em>was</em> merged!
+                >[3]</a
+            >
+            which <em>was</em> merged!
         </p>
     </div>
 </section>
 
 <footer>
+    built ✨ from scratch ✨ with <a href="https://svelte.dev">Svelte</a> and
+    <a href="https://pages.github.com">GitHub Pages</a>
     <ul>
         <li>[1] https://github.com/ansible/ansible/issues/32906</li>
         <li>[2] https://github.com/ansible/ansible/pull/32909</li>
         <li>[3] https://github.com/mozilla-lockwise/lockwise-ios/pull/1102</li>
     </ul>
-    This resume is made ✨ from scratch ✨ using<a href="https://svelte.dev"
-        >Svelte</a
-    >!
 </footer>
 
 <style>
-    * {
-        font-family: "SF Pro", Helvetica, sans-serif;
-    }
-
     header {
         display: flex;
     }
@@ -420,13 +281,18 @@
         flex: 1;
     }
 
+    footer > a {
+        text-decoration: none;
+        color: currentColor;
+    }
+
     section {
         display: flex;
         margin-top: 1rem;
     }
 
     section > h3 {
-        min-width: 8rem;
+        min-width: 7rem;
         opacity: 0.25;
     }
 
@@ -447,6 +313,11 @@
 
     footer {
         text-align: center;
+    }
+
+    footer > ul {
+        list-style: none;
+        text-align: start;
     }
 
     header a {
@@ -488,7 +359,10 @@
         column-count: 2;
     }
 
-    header, footer, p, ul {
+    header,
+    footer,
+    p,
+    ul {
         font-size: small;
     }
 </style>
