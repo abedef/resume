@@ -57,24 +57,24 @@
             company: "Bell Canada",
             years: "2017 – 2021",
             description:
-                "Straight out of school I joined a small and fairly new Agile team at Bell that was due to deliver on an ambitious project with a tight, government-mandated deadline. The CRTC updated their wireless code of conduct – which all telecommunications companies must follow – and Bell was the first to implement their requirements without delay thanks to the work done by my team. Later, I transferred to a team responsible for the rollout of 5G onto Bell's network, where I supported our Kubernetes environments. <!-- Something about replacing legacy systems with microservice architecture --> <!-- collaborated with people all the way from Dublin to Delhi -->",
+                "After graduating I was recruited by a small and fairly new Agile team at Bell that was set to deliver on an ambitious project with a tight, government-mandated deadline. In response to the CRTC's updates to the wireless code of conduct – which all telecommunications companies must follow – my team at Bell succeeded in being the first to implement the new requirements without delay. All this was achieved by swapping out components of our legacy system with a new microservice architecture, supported by the geo-redundant infrastructure we built and managed. Later, I transferred to a team responsible for the rollout of 5G onto Bell's network, where I supported our Kubernetes environments and eliminated blockers in a high performance remote team setting.",
             roles: [
                 {
                     title: "Software Developer",
                     subtitle: "Infrastructure & Pipeline Automation",
                     responsibilities: [
-                        "supported and developed systems supporting high TPS and high redundancy for charging systems at a nationwide telecommunication company",
-                        "developed and supported high TPS systems with highly redundant deployments at a nationwide telecom company",
-                        "tracked down opportunities to improve and speed up our development and deployment pipelines, with an emphasis on enhancing developer and QA experience",
-                        "advocated for knowledge sharing and reduced redundancy by means of organization-wide “open-source” development practices",
-                        "troubleshooted development and production environment issues, providing technical support where required, and documenting fixes and best practices in our team’s shared knowledge base",
-                        "troubleshooted development and production environment issues, documenting fixes and best practices in our shared knowledge base",
-                        "introduced, trialed and rolled out several eventual key infrastructure and development tools (i.e. Terraform)",
+                        "Supported high redundancy charging systems for a nationwide telecommunications company withstanding high TPS",
+                        "Shortened testing and delivery iteration cycles by tracing blockers and performance hogs to enhance developer and QA experience",
+                        "Presented a talk to my team and to our directors to advocate for knowledge sharing and reduced redundancy by means of organization-wide “open-source” development practices",
+                        "Troubleshooted development and production environment issues, providing technical support where required, and documenting fixes and best practices in our team’s shared knowledge base",
+                        "Independently introduced, trialed and rolled out what would eventually be several key infrastructure and development tools (i.e. Terraform, Portainer)",
+
                         "Know design patterns, implemented a bunch of features with minimal guidance",
                         "Wrote a lot of reconciliation scripts that are probably still there today",
                         "Supported application deployments to Openshift and their integration",
-                        "Developed pipelines to accelerate deployments and minimize human error",
-                        "Presented knowledge-sharing talks and demos on automation and Linux tools",
+
+                        "Minimized human error and sped up deployments by developing multi-stage pipelines which can run automated integration tests and deploy to any environment",
+                        "Gave knowledge-sharing talks and demos to my team on the topics of development environments, automation and general Linux productivity enhancements with tools such as tmux and vim",
                     ],
                 },
                 {
@@ -109,16 +109,22 @@
 
     let skills = [
         "Server administration: comfortable using Linux environment as a daily driver",
-        "Home server administration (self-hosted services, build servers, chat bots)",
-        "boop SvelteKit, Go, Swift/SwiftUI, PostgreSQL, GCP",
-        "Javascript, Typescript, Go, Swift, Python, HTML/CSS, Java, Ruby, Rust",
-        "Functional programming languages such as Racket and Elm",
-        "Tools: Docker, Ansible, Packer, Vagrant, Terraform, Linux, Openshift, Openstack, Google Cloud, HAProxy, Nginx, Traefik, Jenkins, Gitlab CI/CD",
+        "Web: Javascript, Typescript, HTML/CSS; building Svelte/SvelteKit applications",
+        "Functional programming: Racket, Elm",
+        "Scripting: Python, Ruby",
+        "Systems programming: Go, Java, Rust",
+        "Other programming: Swift; building interfaces with SwiftUI",
+        "Databases: PostgreSQL; setting up and optimizing MongoDB clusters",
+        "Automation tools: Ansible, Jenkins, Gitlab CI/CD",
+        "Infrastructure tools: Docker, Packer, Vagrant, Terraform, HAProxy, Nginx, Traefik",
+        "Cloud providers and hypervisors: Openshift, Openstack, Google Cloud (GCP)",
+        "Operating systems: comfortable using Linux, Windows and macOS as a daily driver",
         "User interface design and development",
         "Creative coding, graphics programming and game engine architecture",
         "In a personal capacity, I enjoy coding and am usually hacking away at a few side projects at any given time, which I occasionally showcase on my Github/GitLab. I like to explore new frameworks and languages and am always excited to add a new language to my tool belt.",
         "In terms of hobbies, since I was first taught to set up and use SSH, I have been maintaining a number of home servers for the purpose of supporting self-hosted services. Although my first few servers' OS is Canonical's Ubuntu, I prefer Arch Linux for personal use. Some of my favourite self-hosted tools are MinIO and Proxmox, which I make generous use of in my personal projects.",
         "Know my way around the command line and have set up enough Linux machines and Hackintoshes to feel comfortable",
+        "Home server administration (self-hosted services, build servers, chat bots)",
         "Languages: English, Arabic, Russian",
     ];
 </script>
@@ -133,10 +139,10 @@
 <header>
     <div id="header-left">
         <div>
-            <a href="https://gitlab.com/abed">gitlab.com/abed</a>
+            <a href="mailto:Abed <hello@abedef.ca>">hello@abedef.ca</a>
         </div>
         <div>
-            <a href="https://github.com/abedef">github.com/abedef</a>
+            <a href="tel:+1 (416) 452-1467">+1 (416) 452-1467</a>
         </div>
     </div>
 
@@ -146,10 +152,10 @@
 
     <div id="header-right">
         <div>
-            <a href="mailto:Abed <hello@abedef.ca>">hello@abedef.ca</a>
+            <a href="https://gitlab.com/abed">gitlab.com/abed</a>
         </div>
         <div>
-            <a href="tel:+1 (416) 452-1467">+1 (416) 452-1467</a>
+            <a href="https://github.com/abedef">github.com/abedef</a>
         </div>
     </div>
 </header>
@@ -230,7 +236,7 @@
 </section>
 
 <section>
-    <h3>Open<br />Source<br />Contribution</h3>
+    <h3>Open Source Contribution</h3>
     <div>
         <div class="company">
             <h3>Ansible</h3>
@@ -251,7 +257,7 @@
             <h3>Lockwise</h3>
         </div>
 
-        <p class="company-description">
+        <p class="oss-description">
             I tracked down a user interface bug in Mozilla's iOS password
             manager app, Lockwise, and submitted a fix <a
                 href="https://github.com/mozilla-lockwise/lockwise-ios/pull/1102"
@@ -262,14 +268,25 @@
     </div>
 </section>
 
+<section>
+    <h3 />
+    <div>
+        <ul class="links">
+            <li>[1] https://github.com/ansible/ansible/issues/32906</li>
+            <li>[2] https://github.com/ansible/ansible/pull/32909</li>
+            <li>
+                [3] https://github.com/mozilla-lockwise/lockwise-ios/pull/1102
+            </li>
+        </ul>
+    </div>
+</section>
+
 <footer>
-    built ✨ from scratch ✨ with <a href="https://svelte.dev">Svelte</a> and
-    <a href="https://pages.github.com">GitHub Pages</a>
-    <ul>
-        <li>[1] https://github.com/ansible/ansible/issues/32906</li>
-        <li>[2] https://github.com/ansible/ansible/pull/32909</li>
-        <li>[3] https://github.com/mozilla-lockwise/lockwise-ios/pull/1102</li>
-    </ul>
+    <p>
+        built <span>✨</span> from scratch <span>✨</span> with
+        <a href="https://svelte.dev">Svelte</a>
+        and hosted with <a href="https://pages.github.com">GitHub Pages</a>
+    </p>
 </footer>
 
 <style>
@@ -281,7 +298,11 @@
         flex: 1;
     }
 
-    footer > a {
+    footer > p {
+        opacity: 0.5;
+    }
+
+    footer > p > a {
         text-decoration: none;
         color: currentColor;
     }
@@ -293,6 +314,7 @@
 
     section > h3 {
         min-width: 7rem;
+        max-width: 7rem;
         opacity: 0.25;
     }
 
@@ -320,10 +342,11 @@
         text-align: center;
     }
 
-    footer > ul {
+    ul.links {
         list-style: none;
         text-align: start;
         padding-left: 0;
+        margin-bottom: 1rem;
     }
 
     header a {
@@ -341,6 +364,11 @@
 
     p.company-description {
         margin-bottom: 1rem;
+        text-align: justify;
+    }
+
+    p.oss-description {
+        text-align: justify;
     }
 
     ul {
@@ -365,10 +393,28 @@
         column-count: 2;
     }
 
-    header,
-    footer,
+    .role > em,
+    .role > h4 {
+        font-size: 0.9rem;
+    }
+
     p,
-    ul {
-        font-size: small;
+    ul,
+    header > div {
+        font-size: 0.8rem;
+    }
+
+    @media (max-width: 700px) {
+        section > h3 {
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            min-width: unset;
+        }
+    }
+
+    @media (max-width: 620px) {
+        #coursework {
+            column-count: 1;
+        }
     }
 </style>
