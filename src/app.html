@@ -7,12 +7,13 @@
 	<style>
 		@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 
-		* {
+		html {
 			font-family: "Roboto Condensed", sans-serif;
+			-webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
 		}
 
 		@media print {
-			* {
+			html {
 				font-family: 'Times New Roman', Times, serif;
 			}
 		}
