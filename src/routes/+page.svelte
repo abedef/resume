@@ -362,6 +362,7 @@
     }
 
     @media screen and (max-width: 620px) {
+        ul.skills,
         #coursework {
             column-count: 1;
         }
@@ -370,6 +371,10 @@
     @media print {
         footer {
             visibility: hidden;
+        }
+
+        ul.skills {
+            column-count: 1;
         }
     }
 </style>
