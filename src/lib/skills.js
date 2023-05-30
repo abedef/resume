@@ -21,14 +21,14 @@ export const skills = [
         title: "Networking tools:",
         body: "HAProxy, Nginx, Traefik",
     },
-    // {
-    //     title: "Cloud platforms and providers:",
-    //     body: "Openshift, Openstack, Google Cloud Platform (GCP), Amazon Web Services (AWS)",
-    // },
-    // {
-    //     title: "Operating systems:",
-    //     body: "proficient in using/maintaining/troubleshooting Unix-based environments (Linux, macOS)",
-    // },
+    {
+        title: "Cloud platforms and providers:",
+        body: "Openshift, Openstack, Google Cloud Platform (GCP), Amazon Web Services (AWS)",
+    },
+    {
+        title: "Operating systems:",
+        body: "proficient in using/maintaining/troubleshooting Unix-based environments (Linux, macOS)",
+    },
     {
         title: "Linux server administration:",
         body: "self-hosting CI runners, build servers, chat bots",

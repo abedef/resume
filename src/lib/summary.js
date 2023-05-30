@@ -1,3 +1,2 @@
 export const summary =
-"Cloud software & infrastructure specialist equipped with 5+ years of experience developing, deploying and maintaining large microservice systems in telecommunications and telehealth. With a demonstrated history of initiative, determination and communication skills, I thrive in collaborative environments and seek opportunities to broaden my knowledge and apply my experience to solving interesting problems.";
-// TODO "adaptability" instead of "communication skills"?
+"Cloud software & infrastructure specialist with 5+ years' experience developing, deploying and maintaining large microservice systems in telecommunications and telehealth. With a demonstrated history of initiative, determination and effective communication, I thrive in collaborative environments and seek opportunities to broaden my knowledge and apply myself to solving interesting problems.";

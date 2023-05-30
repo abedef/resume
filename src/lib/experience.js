@@ -3,7 +3,7 @@ export const experience = [
         company: "Postscriptions Inc.",
         years: "2021–Present",
         description:
-            "In my last semester of university, I began designing and prototyping an online delivery pharmacy solution with a long-time friend. While he managed the pharmacy and regulatory side of business, I handled our technical requirements and built a stack to fulfill our patients' needs. By September of 2021 we had the vision, timeline and funding to allow me to pursue our venture full-time, with the end goal of leading our operational stack to a comfortable level of maturity and autonomy. At this point in time we operate out of a location in Toronto, offering prescription delivery all over the GTA.",
+            "In my last semester of university, I began designing and prototyping an online delivery pharmacy solution with a long-time friend. While he managed the pharmaceutical and regulatory aspects of the startup, I handled our technical requirements and built a stack to fulfill our patients' and pharmacists' needs. By September of 2021 we had the vision, timeline and funding to allow me to pursue our venture full-time, with the goal of leading our operational stack to a comfortable level of maturity and autonomy. We currently operate out of a location in Toronto, offering prescription delivery all over the GTA.",
         roles: [
             {
                 title: "Founding Engineer, Chief Technical Officer",
@@ -14,14 +14,14 @@ export const experience = [
                     "Designed and built iOS client application in Swift/SwiftUI, allowing patients to manage prescriptions and coordinate deliveries",
                     "Captured larger user base by migrating iOS app functionality to cross-platform SvelteKit web application",
                     "Provided maximum control to pharmacists through custom web applications designed to queue and automate common tasks",
-                    "Kept operating costs at a minimum by leveraging credits and free tiers offered by cloud providers such as AWS and GCP",
-                    "Reduced development and iteration cycles by migrating from the prototype Java Spring backend to a Golang and Node.js stack",
+                    "Maintained low operating costs by leveraging credits and free tiers offered by cloud providers",
+                    "Reduced development and iteration cycles by migrating from prototype Java Spring backend to Golang and Node.js stack",
+                    "Supplemented Google Cloud SQL with in-memory cache to reduce unnecessary accesses",
                     "Adapted to technical requirements and limitations relating to data storage laws with creative, cost-effective solutions",
                     "Supported self-hosted tools relating to pharmacy operations, both for our own security practices and for PIPEDA-compliance",
-                    "Implemented login methods balancing convenience and security such as magic links, one-time codes, OAuth and WebAuthn",
+                    "Implemented login methods such as magic links, one-time codes, OAuth and WebAuthn to balance convenience and security",
                     "Improved continuity in pharmacist-patient communication by integrating our text message service with our internal chat platform",
                     "Developed notification system to reach out to patients over text message and email",
-                    "Interfaced with Google Cloud SQL PostgreSQL instance, along with in-memory cache to reduce accesses",
                 ],
             },
         ],
@@ -36,7 +36,7 @@ export const experience = [
                 title: "Software Developer",
                 subtitle: "Infrastructure & Pipeline Automation",
                 responsibilities: [
-                    "Supported a nationwide telecommunications company's geo-redundant charging systems capable of withstanding sustained loads of upwards of 60 TPS",
+                    "Supported a nationwide geo-redundant online charging systems (OCS) capable of withstanding sustained loads of upwards of 60 TPS",
                     "Sped up testing and delivery iteration cycles by 1.5-2x and enhanced developer and QA experience by tracing blockers and performance hogs",
                     "Gave presentations to my team of 50 and to company directors advocating for knowledge sharing and reduced redundancy by means of organization-wide “open-source” development practices",
                     "Created and took ownership of several highly referenced team knowledge base pages documenting key deployment environment details, best practices and troubleshooting steps",
