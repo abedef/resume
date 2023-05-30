@@ -160,6 +160,16 @@
     </div>
 </section>
 
+<section>
+    <h3>Skills</h3>
+    <div>
+        <ul>
+            {#each skills as skill}
+                <li>{skill}</li>
+            {/each}
+        </ul>
+    </div>
+</section>
 <!-- TODO: Include "I am comfortable working with XYZ languages..." -->
 
 <section>
@@ -193,17 +203,6 @@
                 {/if}
             {/each}
         {/each}
-    </div>
-</section>
-
-<section>
-    <h3>Skills</h3>
-    <div>
-        <ul>
-            {#each skills as skill}
-                <li>{skill}</li>
-            {/each}
-        </ul>
     </div>
 </section>
 
