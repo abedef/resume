@@ -116,7 +116,7 @@
                     <h3 class="years">{gig.years}</h3>
                 </div>
                 {#if "description" in gig}
-                    <p class="company-description">{gig.description}</p>
+                    <p class="company-description">{@html gig.description}</p>
                 {/if}
 
                 {#each gig.roles as role}
