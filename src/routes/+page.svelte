@@ -376,5 +376,16 @@
         ul.skills {
             column-count: 1;
         }
+
+        .role > em,
+        .role > h4 {
+            font-size: 0.7rem;
+        }
+
+        p,
+        ul,
+        header > div {
+            font-size: 0.6rem;
+        }
     }
 </style>

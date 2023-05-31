@@ -8,9 +8,14 @@ export const skills = [
         body: "Swift, Objective-C, Kotlin, C#",
     },
     { title: "Frameworks:", body: "Svelte, SwiftUI, Spring" },
+    { title: "UI/UX:", body: "Designing and implementing user interfaces" },
     {
         title: "Databases:",
         body: "PostgreSQL, MongoDB, Supabase, PocketBase, Cloud SQL",
+    },
+    {
+        title: "Networking tools:",
+        body: "HAProxy, Nginx, Traefik",
     },
     { title: "Automation tools:", body: "Ansible, Jenkins, Gitlab CI/CD" },
     {
@@ -18,24 +23,16 @@ export const skills = [
         body: "Docker, Packer, Vagrant, Terraform",
     },
     {
-        title: "Networking tools:",
-        body: "HAProxy, Nginx, Traefik",
-    },
-    {
         title: "Cloud platforms and providers:",
-        body: "Openshift, Openstack, Google Cloud Platform (GCP), Amazon Web Services (AWS)",
-    },
-    {
-        title: "Operating systems:",
-        body: "proficient in using/maintaining/troubleshooting Unix-based environments (Linux, macOS)",
+        body: "Openshift, Openstack, GCP, AWS",
     },
     {
         title: "Linux server administration:",
-        body: "self-hosting CI runners, build servers, chat bots",
+        body: "managed environments with 100+ hosts",
     },
     { title: "Languages:", body: "English, Arabic, Russian" },
     // { body: "Quick to pick up new frameworks and programming languages" },
-    // { body: "Creative coding, graphics programming and game engine architecture", },
+    // { body: "Creative coding, graphics programming game engine architecture, user interface design, responsive design", },
 ];
 
 // TODO Include "I am comfortable working with XYZ languages..."
