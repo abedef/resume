@@ -387,5 +387,9 @@
         header > div {
             font-size: 0.6rem;
         }
+
+        section {
+            page-break-inside: avoid;
+        }
     }
 </style>
