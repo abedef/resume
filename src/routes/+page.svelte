@@ -18,7 +18,7 @@
     function addLinks(obj: any) {
         switch (typeof obj) {
             case "string":
-                const matcher = /((?<!href=")https?:\/\/[^ ]*)/;
+                const matcher = /((?<!href=")https?:\/\/[^ ,]*)/;
                 let match = obj.match(matcher);
                 while (match) {
                     obj = obj.replace(

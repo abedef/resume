@@ -33,6 +33,7 @@ export const skills = [
     { title: "Languages:", body: "English, Arabic, Russian" },
     // { body: "Quick to pick up new frameworks and programming languages" },
     // { body: "Creative coding, graphics programming game engine architecture, user interface design, responsive design", },
+    // Mention graylog and zabbix
 ];
 
 // TODO Include "I am comfortable working with XYZ languages..."

@@ -1,2 +1,2 @@
 export const summary =
-"Cloud software & infrastructure specialist with 5+ years' experience developing, deploying and maintaining large microservice systems in telecommunications and telehealth. Strong collaboration and communication skills, working with cross-functional teams to deliver exceptional results.";
+"Cloud software & infrastructure specialist with 5+ years' experience developing and deploying resilient microservice systems in telecommunications and telehealth. Proficient in server administration, with an extensive programming background and strong collaboration and communication skills.";
