@@ -36,7 +36,7 @@ export const experience = [
                 title: "DevOps Engineer",
                 subtitle: "Infrastructure & Pipeline Automation",
                 responsibilities: [
-                    "Supported a nationwide geo-redundant online charging systems (OCS) capable of withstanding sustained loads of upwards of 60 TPS",
+                    "Supported a nationwide geo-redundant online charging systems (OCS) capable of withstanding sustained loads of upwards of 800 TPS",
                     "Built and configured our team's first development Docker swarm, along with several staging and production environments",
                     "Independentely trialled, introduced and rolled out what would eventually become several of our team's key infrastructure and development tools", // including but not limited to Terraform and Portainer",
                     "Created and took ownership of highly referenced pages documenting environment details, troubleshooting steps and best practices",
