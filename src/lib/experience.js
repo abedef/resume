@@ -38,10 +38,10 @@ export const experience = [
                 responsibilities: [
                     "Supported a nationwide geo-redundant online charging systems (OCS) capable of withstanding sustained loads of upwards of 800 TPS",
                     "Built and configured our team's first development Docker swarm, along with several staging and production environments",
-                    "Independentely trialled, introduced and rolled out what would eventually become several of our team's key infrastructure and development tools", // including but not limited to Terraform and Portainer",
+                    "Independently trialled, introduced and rolled out what would eventually become several of our team's key infrastructure and development tools", // including but not limited to Terraform and Portainer",
                     "Created and took ownership of highly referenced pages documenting environment details, troubleshooting steps and best practices",
                     "Reduced incidence of errors and sped up deployments by developing multi-stage pipelines which run automated integration tests and deployments",
-                    "Performed capacity planning & cost estimation to forecase required hardware budget requirements",
+                    "Performed capacity planning & cost estimation to forecast required hardware budget requirements",
                     // "Pipeline templating project",
                     "Collaborated with our RDBMS specialists and Mongo's on-site support team to optimize automated geo-redundant MongoDB deployments",
                     // "Responsible for key project deliverables pertaining to infrastructure and deployment (Terraform, Ansible)",
