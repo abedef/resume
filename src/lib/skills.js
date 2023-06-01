@@ -1,5 +1,5 @@
 export const skills = [
-    { title: "Web development:", body: "Javascript, Typescript, HTML/CSS" },
+    { title: "Web development:", body: "Javascript, Typescript, HTML/CSS, Node.js" },
     { title: "Scripting:", body: "Python, Ruby, Bash" },
     { title: "Systems programming:", body: "Go, Java, C/C++, Rust" },
     { title: "Functional programming:", body: "Racket, Elm" },
