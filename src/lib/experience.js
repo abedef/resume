@@ -56,7 +56,7 @@ export const experience = [
                 title: "Software Developer",
                 subtitle: "Java Spring Development",
                 responsibilities: [
-                    "Implemented, tested and documented new microservice features within a cross-functional Agile team",
+                    "Implemented, tested and documented new microservice features and APIs within a cross-functional Agile team",
                     "Quickly adapted to code review feedback and contributed to new and existing codebases with minimal guidance",
                     "Wrote and took ownership of deployment scripts for setting up development and production environments",
                     "Improved developer workflow by implementing and distributing scripts to recreate local versions of our production environments",
