@@ -63,7 +63,7 @@
             <a href="mailto:Abed <hello@abedef.ca>">hello@abedef.ca</a>
         </div>
         <div>
-            <a href="tel:+1 (416) 452-1467">+1 (416) 452-1467</a>
+            <a href="https://www.toronto.ca">Toronto</a>
         </div>
     </div>
 
