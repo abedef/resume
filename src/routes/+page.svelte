@@ -60,10 +60,10 @@
 <header>
     <div id="header-left">
         <div>
-            <a href="mailto:Abed <hello@abedef.ca>">hello@abedef.ca</a>
+            <a href="https://www.toronto.ca">Toronto</a>
         </div>
         <div>
-            <a href="https://www.toronto.ca">Toronto</a>
+            <a href="mailto:Abed <hello@abedef.ca>">hello@abedef.ca</a>
         </div>
     </div>
 
