@@ -1,7 +1,20 @@
 export const experience = [
     {
+        company: "OSF Management",
+        years: "2023–Present",
+        description:
+            "OSF is an unconventional capital management company that uses superior technology to power crypto hedge funds to exceptional risk adjusted returns.",
+        roles: [
+            {
+                title: "Backend Developer",
+                subtitle: "Typescript Development",
+                responsibilities: [],
+            },
+        ],
+    },
+    {
         company: "Postscriptions Inc.",
-        years: "2021–Present",
+        years: "2021–2023",
         description:
             "Postscriptions https://postscriptions.ca is an online pharmacy I first prototyped in 2019. While my co-founder managed the pharmaceutical and regulatory aspects of the startup, I handled the technical requirements. By September of 2021 – with the goal of leading our stack to a comfortable level of maturity and autonomy – we had the vision, timeline and funding for me to work on this project full-time. We currently operate out of a location in Toronto, offering prescription delivery all over the GTA.",
         roles: [
