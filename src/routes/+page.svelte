@@ -251,6 +251,8 @@
 
     ul.skills {
         column-count: 2;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
     }
 
     h3.years {
@@ -330,6 +332,8 @@
 
     #coursework {
         column-count: 2;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
     }
 
     .role > em,
@@ -365,6 +369,8 @@
         ul.skills,
         #coursework {
             column-count: 1;
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
         }
     }
 
@@ -375,6 +381,8 @@
 
         ul.skills {
             column-count: 1;
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
         }
 
         .role > em,
