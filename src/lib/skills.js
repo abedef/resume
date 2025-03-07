@@ -7,7 +7,7 @@ export const skills = [
         title: "Other programming:",
         body: "Swift, Objective-C, Kotlin, C#",
     },
-    { title: "Frameworks:", body: "Svelte, Tailwind, SwiftUI, Spring" },
+    { title: "Frameworks:", body: "React, Expo, Svelte, SwiftUI, Spring" },
     { title: "UI/UX:", body: "Designing and implementing user interfaces" },
     {
         title: "Databases:",

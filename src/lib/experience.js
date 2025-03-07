@@ -1,14 +1,19 @@
 export const experience = [
     {
         company: "OSF Management",
-        years: "2023–Present",
+        years: "2023–2024",
         description:
             "OSF is an unconventional capital management company that uses superior technology to power crypto hedge funds to exceptional risk adjusted returns.",
         roles: [
             {
                 title: "Backend Developer",
                 subtitle: "Typescript Development",
-                responsibilities: [],
+                responsibilities: [
+                    "Developed and maintained real-time integrations with multiple cryptocurrency exchange APIs, ensuring seamless data ingestion and synchronization.",
+                    "Engineered data pipelines to mirror and process key financial data streams, including trades, ledgers, tickers, and funding rates, for dashboard visualization.",
+                    "Collaborated cross-functionally with developers to ensure data accuracy and consistency across systems, supporting trading bots' real-time decision-making.",
+                    "Optimized CI/CD and deployment workflows across development, staging, and production environments, enhancing team efficiency and system reliability.",
+                ],
             },
         ],
     },
