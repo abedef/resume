@@ -10,9 +10,9 @@ export const experience = [
                 subtitle: "Typescript Development",
                 responsibilities: [
                     "Developed and maintained real-time integrations with multiple cryptocurrency exchange APIs, ensuring seamless data ingestion and synchronization.",
-                    "Engineered data pipelines to mirror and process key financial data streams, including trades, ledgers, tickers, and funding rates, for dashboard visualization.",
-                    "Collaborated cross-functionally with developers to ensure data accuracy and consistency across systems, supporting trading bots' real-time decision-making.",
-                    "Optimized CI/CD and deployment workflows across development, staging, and production environments, enhancing team efficiency and system reliability.",
+                    "Engineered data pipelines to mirror and process key financial data streams (i.e. trades, ledgers, tickers, and funding rates) for dashboard visualization.",
+                    "Collaborated with developers to ensure data accuracy and consistency across systems, supporting trading bots' real-time decision-making.",
+                    "Optimized CI/CD and deployment workflows across environments, enhancing team efficiency and system reliability.",
                 ],
             },
         ],
