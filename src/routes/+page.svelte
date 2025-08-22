@@ -6,6 +6,17 @@
         summary as raw_summary,
         projects as raw_projects,
     } from "$lib";
+    
+    import {
+        education as simple_education,
+        experience as simple_experience,
+        skills as simple_skills,
+        summary as simple_summary,
+        projects as simple_projects,
+    } from "$lib/simple";
+    
+    import ResumeToggle from "$lib/components/ResumeToggle.svelte";
+    import { isSimplified } from "$lib/resumeStore";
 
     let links: string[] = [];
 
@@ -46,15 +57,29 @@
         }
     }
 
-    const summary = addLinks(raw_summary);
-    const skills = addLinks(raw_skills);
-    const experience = addLinks(raw_experience);
-    const education = addLinks(raw_education);
-    const projects = addLinks(raw_projects);
+    $: currentData = $isSimplified ? {
+        summary: simple_summary,
+        skills: simple_skills,
+        experience: simple_experience,
+        education: simple_education,
+        projects: simple_projects
+    } : {
+        summary: raw_summary,
+        skills: raw_skills,
+        experience: raw_experience,
+        education: raw_education,
+        projects: raw_projects
+    };
+    
+    $: summary = addLinks(currentData.summary);
+    $: skills = addLinks(currentData.skills);
+    $: experience = addLinks(currentData.experience);
+    $: education = addLinks(currentData.education);
+    $: projects = addLinks(currentData.projects);
 
-    const midpoint = Math.ceil(skills.length / 2);
-    const skillsLeft = skills.slice(0, midpoint - 1);
-    const skillsRight = skills.slice(midpoint - 1);
+    $: midpoint = Math.ceil(skills.length / 2);
+    $: skillsLeft = skills.slice(0, midpoint - 1);
+    $: skillsRight = skills.slice(midpoint - 1);
 
     const showCoursework = false;
 </script>
@@ -235,6 +260,8 @@
         and hosted on <a href="https://pages.github.com">GitHub Pages</a>
     </p>
 </footer>
+
+<ResumeToggle />
 
 <style>
     header {
