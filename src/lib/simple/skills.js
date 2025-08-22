@@ -22,6 +22,10 @@ export const skills = [
   { title: "Cloud:", body: "AWS, GCP, Cloudflare, OpenShift, OpenStack" },
   { title: "Networking:", body: "HAProxy, Nginx, Apache, Traefik, Caddy" },
   {
+    title: "AI tools:",
+    body: "Claude Code, OpenCode, OpenAI Codex, OpenAI API, Ollama",
+  },
+  {
     title: "Architecture & Design:",
     body: "Distributed systems, API design, technical roadmapping, mentorship",
   },

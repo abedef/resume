@@ -82,8 +82,8 @@
   $: projects = addLinks(currentData.projects);
 
   $: midpoint = Math.ceil(skills.length / 2);
-  $: skillsLeft = skills.slice(0, midpoint);
-  $: skillsRight = skills.slice(midpoint);
+  $: skillsLeft = skills.slice(0, midpoint + 1);
+  $: skillsRight = skills.slice(midpoint + 1);
 
   const showCoursework = false;
 </script>

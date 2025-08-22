@@ -35,7 +35,10 @@ export const skills = [
     title: "Cloud platforms and providers:",
     body: "Openshift, Openstack, GCP, AWS",
   },
-  { title: "AI tools:", body: "Claude Code, OpenCode, OpenAI Codex" },
+  {
+    title: "AI tools:",
+    body: "Claude Code, OpenCode, OpenAI Codex, OpenAI API, Ollama",
+  },
   // {
   //     title: "Linux server administration:",
   //     body: "managed environments with 100+ hosts",
