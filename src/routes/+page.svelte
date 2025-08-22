@@ -26,7 +26,11 @@
         return reference;
     }
 
-    function addLinks(obj: any) {
+    function addLinks(obj: any, resetLinks: boolean = false) {
+        if (resetLinks) {
+            links = [];
+        }
+        
         switch (typeof obj) {
             case "string":
                 const matcher = /((?<!href=")https?:\/\/[^ ,]*)/;
@@ -71,7 +75,7 @@
         projects: raw_projects
     };
     
-    $: summary = addLinks(currentData.summary);
+    $: summary = addLinks(currentData.summary, true);
     $: skills = addLinks(currentData.skills);
     $: experience = addLinks(currentData.experience);
     $: education = addLinks(currentData.education);
