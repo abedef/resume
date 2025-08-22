@@ -20,7 +20,7 @@ export const skills = [
     body: "Docker, Terraform, Ansible, CI/CD (Jenkins, GitHub Actions)",
   },
   { title: "Cloud:", body: "AWS, GCP, Cloudflare, OpenShift, OpenStack" },
-  { title: "Networking:", body: "HAProxy, Nginx, Traefik, Caddy" },
+  { title: "Networking:", body: "HAProxy, Nginx, Apache, Traefik, Caddy" },
   {
     title: "Architecture & Design:",
     body: "Distributed systems, API design, technical roadmapping, mentorship",

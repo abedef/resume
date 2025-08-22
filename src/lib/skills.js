@@ -21,7 +21,7 @@ export const skills = [
   },
   {
     title: "Networking tools:",
-    body: "HAProxy, Nginx, Traefik, Caddy",
+    body: "HAProxy, Nginx, Apache, Traefik, Caddy",
   },
   {
     title: "Automation tools:",
