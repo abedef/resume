@@ -12,8 +12,8 @@ export const projects = [
         description: "An experimental information capture and recall system I created as an open-source alternative to a commercial product https://www.tatatap.com with similar offerings. Annotated text-based submissions (called <em>boop</em>s) are transmitted to the system over web interface, SMS, or email (or, just for fun: over DNS) and indexed, providing lightning-fast information storage and retrieval."
     },
     {
-        name: "Passkey-based authentication",
-        description: "I have taken a keen interest in WebAuthn – the new-ish standard for logins on the web – and have implemented my own passkey authentication https://genieindex.ca in Go and Javascript for various services I manage for friends and family. My current goal is to bring native passkey authentication support to backend frameworks such as PocketBase https://pocketbase.io/, which currently only supports popular login methods such as email and OAuth."
+        name: "PocketBase https://pocketbase.io/ Passkey Authentication",
+        description: "I have taken a keen interest in WebAuthn – the new-ish standard for logins on the web – and have implemented my own passkey authentication https://abedef.ca/blog/nginx-oauth/ in Go and Javascript for various services I manage for friends and family. My current goal is to bring native passkey authentication support to PocketBase, a backend framework which currently only supports more popular login methods such as email and OAuth."
     },
     {
         name: "Lie to Me – A Wikipedia Game https://github.com/abedef/wikigame",

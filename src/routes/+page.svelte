@@ -23,7 +23,7 @@
                 while (match) {
                     obj = obj.replace(
                         match[0],
-                        `<a href="${match[0]}">[${addLink(match[0])}]</a>`
+                        `<a href="${match[0]}">[${addLink(match[0])}]</a>`,
                     );
                     match = obj.match(matcher);
                 }
@@ -40,7 +40,7 @@
 
             default:
                 console.error(
-                    `addLinks() not implemented for type ${typeof obj}`
+                    `addLinks() not implemented for type ${typeof obj}`,
                 );
                 break;
         }
@@ -51,6 +51,12 @@
     const experience = addLinks(raw_experience);
     const education = addLinks(raw_education);
     const projects = addLinks(raw_projects);
+
+    const midpoint = Math.ceil(skills.length / 2);
+    const skillsLeft = skills.slice(0, midpoint - 1);
+    const skillsRight = skills.slice(midpoint - 1);
+
+    const showCoursework = false;
 </script>
 
 <svelte:head>
@@ -93,9 +99,29 @@
 
     <section>
         <h3>Skills</h3>
-        <div>
-            <ul class="skills">
+        <div class="skills">
+            <ul class="skills-single">
                 {#each skills as skill}
+                    <li>
+                        {#if "title" in skill}
+                            <strong>{skill.title}</strong>
+                        {/if}
+                        {skill.body}
+                    </li>
+                {/each}
+            </ul>
+            <ul class="skills">
+                {#each skillsLeft as skill}
+                    <li>
+                        {#if "title" in skill}
+                            <strong>{skill.title}</strong>
+                        {/if}
+                        {skill.body}
+                    </li>
+                {/each}
+            </ul>
+            <ul class="skills">
+                {#each skillsRight as skill}
                     <li>
                         {#if "title" in skill}
                             <strong>{skill.title}</strong>
@@ -151,17 +177,19 @@
                     <em>{edu.program}</em>
                 </div>
 
-                <ul id="coursework">
-                    {#each edu.courses as course}
-                        <li>{course.code} <em>{course.name}</em></li>
-                    {/each}
-                </ul>
+                {#if showCoursework}
+                    <ul id="coursework">
+                        {#each edu.courses as course}
+                            <li>{course.code} <em>{course.name}</em></li>
+                        {/each}
+                    </ul>
+                {/if}
             {/each}
         </div>
     </section>
 
     <section>
-        <h3>Open Source Projects</h3>
+        <h3>Open Source</h3>
         <div>
             {#each projects as project}
                 <div class="company">
@@ -176,8 +204,9 @@
     </section>
 
     <section>
+        <!-- svelte-ignore a11y-missing-content -->
         <h3 />
-        <div>
+        <div class="links">
             <ul class="links">
                 {#each links as link, i}
                     <li>[{i + 1}] <a href={link}>{link}</a></li>
@@ -188,6 +217,10 @@
                     </p>
                 {/each}
             </ul>
+            <p>
+                please find the latest, most up-to-date version of my resume at
+                <a href="https://resume.abedef.ca">https://resume.abedef.ca</a>
+            </p>
         </div>
     </section>
 </article>
@@ -249,10 +282,24 @@
         justify-content: space-between;
     }
 
+    div.skills {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    ul.skills,
+    ul.skills-single {
+        list-style: none;
+        padding: 0;
+    }
+
     ul.skills {
-        column-count: 2;
-        -webkit-column-count: 2;
-        -moz-column-count: 2;
+        width: 50%;
+    }
+
+    ul.skills-single {
+        display: none;
     }
 
     h3.years {
@@ -274,6 +321,14 @@
         text-align: center;
     }
 
+    div.links {
+        display: none;
+    }
+
+    div.links p {
+        text-align: center;
+    }
+
     ul.links {
         list-style: none;
         text-align: start;
@@ -288,7 +343,6 @@
 
     p,
     h1,
-    h2,
     h3,
     h4 {
         margin: 0;
@@ -310,11 +364,6 @@
     ul {
         margin: 0;
         padding-left: 1rem;
-    }
-
-    ul.skills {
-        list-style: none;
-        padding: 0;
     }
 
     ul.responsibilities {
@@ -354,11 +403,6 @@
             min-width: unset;
         }
 
-        ul.skills {
-            padding-left: 0;
-            list-style: none;
-        }
-
         ul#coursework {
             padding-left: 0;
             list-style: none;
@@ -366,11 +410,18 @@
     }
 
     @media screen and (max-width: 620px) {
-        ul.skills,
+        ul.skills-single {
+            display: block;
+        }
+
+        ul.skills {
+            display: none;
+        }
+
         #coursework {
             column-count: 1;
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
+            -webkit-column-count: 1;
+            -moz-column-count: 1;
         }
     }
 
@@ -379,10 +430,10 @@
             visibility: hidden;
         }
 
-        ul.skills {
-            column-count: 1;
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
+        #coursework {
+            column-count: 2;
+            -webkit-column-count: 2;
+            -moz-column-count: 2;
         }
 
         .role > em,
@@ -398,6 +449,10 @@
 
         section {
             page-break-inside: avoid;
+        }
+
+        div.links {
+            display: block;
         }
     }
 </style>
